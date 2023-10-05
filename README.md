@@ -16,12 +16,6 @@
 
 • Payroll Register Report
 
-### Sales and Purchase Tax Reports
-
-• Sales Tax Report
-
-• Purchase Tax Report
-
 ### Installation
 
 Using bench, [install ERPNext](https://github.com/frappe/bench#installation) as mentioned here.
@@ -29,7 +23,7 @@ Using bench, [install ERPNext](https://github.com/frappe/bench#installation) as 
 Once ERPNext is installed, add CSF_KE app to your bench by running
 
 ```sh
-$ bench get-app https://github.com/navariltd/CSF_KE.git
+$ bench get-app branch payroll-14 https://github.com/Douglas-Nkubitu/CSF_KE.git
 ```
 
 After that, you can install CSF_KE app on required site by running
