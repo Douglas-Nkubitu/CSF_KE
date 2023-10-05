@@ -1,7 +1,8 @@
 {
  "charts": [],
- "content": "[{\"id\":\"fu_Qea0T9L\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"ez66GJZq3i\",\"type\":\"card\",\"data\":{\"card_name\":\"Accounting Reports\",\"col\":4}},{\"id\":\"7bKksk7AZV\",\"type\":\"card\",\"data\":{\"card_name\":\"Payroll Reports\",\"col\":4}}]",
+ "content": "[{\"id\":\"fu_Qea0T9L\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"KZEwoCC0TY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NHIF Report\",\"col\":3}},{\"id\":\"cOHs2DtqKm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NSSF Report\",\"col\":3}},{\"id\":\"iFVh5i83v_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"HELB Report\",\"col\":3}},{\"id\":\"G9-BE9o9Lo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payroll Register Report\",\"col\":3}},{\"id\":\"WH7oUVazuf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bank Payroll Advice Report\",\"col\":3}},{\"id\":\"6s6rkN_xTd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"P9A Tax Deduction Card Report\",\"col\":3}}]",
  "creation": "2022-11-03 16:41:03.405594",
+ "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -10,105 +11,8 @@
  "idx": 0,
  "is_hidden": 0,
  "label": "Kenya",
- "links": [
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Payroll Reports",
-   "link_count": 6,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "NHIF Report",
-   "link_count": 0,
-   "link_to": "Kenya NHIF Report",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "NSSF Report",
-   "link_count": 0,
-   "link_to": "Kenya NSSF Report",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "HELB Report",
-   "link_count": 0,
-   "link_to": "Kenya HELB Report",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Payroll Register Report",
-   "link_count": 0,
-   "link_to": "Kenya Payroll Register Report",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Bank Payroll Advice Report",
-   "link_count": 0,
-   "link_to": "Kenya Bank Payroll Advice Report",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "P9A Tax Deduction Card Report",
-   "link_count": 0,
-   "link_to": "Kenya P9A Tax Deduction Card Report",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Accounting Reports",
-   "link_count": 2,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Sales Tax Report",
-   "link_count": 0,
-   "link_to": "Kenya Sales Tax Report",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Purchase Tax Report",
-   "link_count": 0,
-   "link_to": "Kenya Purchase Tax Report",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  }
- ],
- "modified": "2023-03-23 14:33:59.055815",
+ "links": [],
+ "modified": "2023-10-05 07:08:25.018485",
  "modified_by": "Administrator",
  "module": "CSF KE",
  "name": "Kenya",
@@ -119,6 +23,49 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 41.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "NHIF Report",
+   "link_to": "Kenya NHIF Report",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "NSSF Report",
+   "link_to": "Kenya NSSF Report",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "HELB Report",
+   "link_to": "Kenya HELB Report",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Payroll Register Report",
+   "link_to": "Kenya Payroll Register Report",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bank Payroll Advice Report",
+   "link_to": "Kenya Bank Payroll Advice Report",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "P9A Tax Deduction Card Report",
+   "link_to": "Kenya P9A Tax Deduction Card Report",
+   "type": "Report"
+  }
+ ],
  "title": "Kenya"
 }
