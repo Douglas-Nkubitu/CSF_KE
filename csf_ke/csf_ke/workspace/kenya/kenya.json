@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"fu_Qea0T9L\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"KZEwoCC0TY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NHIF Report\",\"col\":3}},{\"id\":\"cOHs2DtqKm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NSSF Report\",\"col\":3}},{\"id\":\"iFVh5i83v_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"HELB Report\",\"col\":3}},{\"id\":\"G9-BE9o9Lo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payroll Register Report\",\"col\":3}},{\"id\":\"WH7oUVazuf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bank Payroll Advice Report\",\"col\":3}},{\"id\":\"6s6rkN_xTd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"P9A Tax Deduction Card Report\",\"col\":3}}]",
+ "content": "[{\"id\":\"fu_Qea0T9L\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"KZEwoCC0TY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NHIF Report\",\"col\":3}},{\"id\":\"cOHs2DtqKm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NSSF Report\",\"col\":3}},{\"id\":\"iFVh5i83v_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"HELB Report\",\"col\":3}},{\"id\":\"G9-BE9o9Lo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payroll Register Report\",\"col\":3}},{\"id\":\"WH7oUVazuf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bank Payroll Advice Report\",\"col\":3}},{\"id\":\"6s6rkN_xTd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"P9A Tax Deduction Card Report\",\"col\":3}}]",
  "creation": "2022-11-03 16:41:03.405594",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "Kenya",
  "links": [],
- "modified": "2023-10-05 07:32:48.067232",
+ "modified": "2023-10-05 08:11:32.835531",
  "modified_by": "Administrator",
  "module": "CSF KE",
  "name": "Kenya",
