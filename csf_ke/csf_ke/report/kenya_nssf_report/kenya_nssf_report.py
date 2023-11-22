@@ -53,9 +53,9 @@ def get_columns():
 		'width': 140
 		},
 		{
-		'label': _('Gross Pay'),
-		'fieldname': 'gross_pay',
-		"fieldtype": "Currency",		
+		'label': _('Amount'),
+		'fieldname': 'amount',
+		'fieldtype': 'Currency',		
 		'width': 200
 		}
 	]
@@ -72,10 +72,11 @@ def get_data(filters,company_currency,conditions=""):
 	SELECT	ss.employee, IFNULL(e.last_name,'') AS last_name,
 	        CONCAT(IFNULL(e.first_name,''), ' ', IFNULL(e.middle_name,'')) AS other_name,
 			e.national_id, e.tax_id, e.nssf_no,	ss.start_date,
-			ss.end_date, ss.gross_pay, ss.company, sc.salary_component
-	FROM `tabEmployee` e, `tabSalary Slip` ss, `tabSalary Component` sc
+			ss.end_date, ss.company, sc.salary_component, sd.amount
+	FROM `tabEmployee` e, `tabSalary Slip` ss, `tabSalary Component` sc, `tabSalary Detail` sd
 	WHERE %s
 		and e.name = ss.employee
+		and sd.parent = ss.name	
 	""" % conditions, filters, as_dict=1)
 
 	return data
