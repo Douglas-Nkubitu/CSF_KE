@@ -71,12 +71,12 @@ def get_data(filters,company_currency,conditions=""):
 	data = frappe.db.sql("""
 	SELECT	ss.employee, IFNULL(e.last_name,'') AS last_name,
 	        CONCAT(IFNULL(e.first_name,''), ' ', IFNULL(e.middle_name,'')) AS other_name,
-			e.national_id, e.tax_id, e.nssf_no,	ss.start_date,
-			ss.end_date, ss.company, sc.salary_component, sd.amount
-	FROM `tabEmployee` e, `tabSalary Slip` ss, `tabSalary Component` sc, `tabSalary Detail` sd
+			e.national_id, e.tax_id, e.nssf_no, sd.amount
+	FROM `tabEmployee` e, `tabSalary Slip` ss, `tabSalary Detail` sd
 	WHERE %s
 		and e.name = ss.employee
-		and sd.parent = ss.name	
+		and sd.parent = ss.name
+		and sd.amount != 0		
 	""" % conditions, filters, as_dict=1)
 
 	return data
@@ -91,10 +91,8 @@ def get_conditions(filters, company_currency):
 	if filters.get("from_date"): conditions += " and ss.start_date = %(from_date)s"
 	if filters.get("to_date"): conditions += " and ss.end_date = %(to_date)s"
 	if filters.get("company"): conditions += " and ss.company = %(company)s"
-	if filters.get("salary_component"): conditions += " and sc.salary_component = %(salary_component)s"
+	if filters.get("salary_component"): conditions += " and sd.salary_component = %(salary_component)s"
 	if filters.get("currency") and filters.get("currency") != company_currency:
 		conditions += " and ss.currency = %(currency)s"
 
 	return conditions
-
-
